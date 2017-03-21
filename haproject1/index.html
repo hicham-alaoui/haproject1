@@ -1,0 +1,65 @@
+
+<head>
+    <meta charset="utf-8">
+    <title>My FSND Project 1</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+  <body class="body1">
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="images/button.png">
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Movie Trailers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <marquee class="marquee"><h2>To view the YouTube movie trailers, please click on the posters</h2></marquee>
+    <hr>
+    <div class="container">
+      
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="Db68gSckUU0" data-toggle="modal" data-target="#trailer">
+    <img src="http://img.moviepostershop.com/hideous-kinky-movie-poster-1999-1010349794.jpg" width="320" height="422">
+    <h2 class="movie_title">Hideous Kinky</h2>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="qas5lWp7_R0" data-toggle="modal" data-target="#trailer">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtzUBKeCoz5G5bS48g-bAUG_AorBExMGHNgYlQvEMUVUTQU2beFw" width="320" height="422">
+    <h2 class="movie_title">Up</h2>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="6_EuwDYfA-M" data-toggle="modal" data-target="#trailer">
+    <img src="http://www.impawards.com/2007/posters/days_of_glory.jpg" width="320" height="422">
+    <h2 class="movie_title">Indigenes</h2>
+</div>
+
+    </div>
+    <hr>
+  </body>
+</html>
