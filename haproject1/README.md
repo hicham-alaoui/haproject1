@@ -16,4 +16,5 @@ The tiles_page file has all the necessary code to generate the index.html fle fo
 
 ### Download the app
 
-The code for this app is available at this link in Github
+The code for this app is available at this link in Github:
+https://github.com/hicham-alaoui/haproject1/blob/master/haproject1
