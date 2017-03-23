@@ -1,20 +1,22 @@
-#import the main python file that will help generate the index.html file.
+# import the main python file that will help generate the index.html file.
 import tiles_page
 
-#import the media file with the main class and variable information.
+# import the media file with the main class and variable information.
 import media
 
-# Add the movies details to match the constructor data; in other words the class variables.
-hideous_kinky = media.Trailers("Hideous Kinky", "http://img.moviepostershop.com/hideous-kinky-movie-poster-1999-1010349794.jpg", "https://youtu.be/Db68gSckUU0")
+# Add the movies details to match the constructor class variables.
+hideous_kinky = media.Trailers("Hideous Kinky", "https://goo.gl/lKsHKE",
+                               "https://youtu.be/Db68gSckUU0")
 
-up = media.Trailers("Up", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtzUBKeCoz5G5bS48g-bAUG_AorBExMGHNgYlQvEMUVUTQU2beFw", "https://youtu.be/qas5lWp7_R0")
+up = media.Trailers("Up", "https://goo.gl/L3ndLp",
+                    "https://youtu.be/qas5lWp7_R0")
 
-indigenes = media.Trailers("Indigenes", "http://www.impawards.com/2007/posters/days_of_glory.jpg", "https://youtu.be/6_EuwDYfA-M")
+indigenes = media.Trailers("Indigenes", "https://goo.gl/E987Ei",
+                           "https://youtu.be/6_EuwDYfA-M")
 
-#Define the list of movies/tarilers you wull be using by creating an array.
+# Define the list of movies/tarilers you wull be using by creating an array.
 tiles = [hideous_kinky, up, indigenes]
 
-#Use the function trailers_page in the main python page to fire the generated html file to the the local server. 
+# Use the function trailers_page to fire the generated html file.
 
 tiles_page.trailers_page(tiles)
-
